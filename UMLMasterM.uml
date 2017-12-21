@@ -1,4 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tkqcYOZzEeeVkMJxGTFkWg" name="UMLMasterM">
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_tmEKkOZzEeeVkMJxGTFkWg" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_tmEKkOZzEeeVkMJxGTFkWg" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bDOxcOaHEeePFcn19USO8Q">
+      <body>&lt;p>The sequence diagram helps filling class diagram to find methods to implement.&lt;/p>
+</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_FVBjIOaIEeePFcn19USO8Q" name="Interaction2">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_GzDAUOaIEeePFcn19USO8Q">
+      <body>&lt;p>The&amp;nbsp; &lt;strong>communication diagram &lt;/strong>helps representing the communication between entities in a pure human language&lt;/p>
+</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_S5qM0OaIEeePFcn19USO8Q" name="Controler"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_We_UwOaIEeePFcn19USO8Q" name="Model">
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlZxUOaJEeePFcn19USO8Q" name="Observer">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_TyxJoOaJEeePFcn19USO8Q" name="Observer"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Vkov4OaJEeePFcn19USO8Q" name="Observed"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QQI68OaKEeePFcn19USO8Q" name="Model"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_YmW_AOaKEeePFcn19USO8Q" name="Mode">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_bNgAYOaKEeePFcn19USO8Q" name="challenger"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cusGUOaKEeePFcn19USO8Q" name="defense"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eMN0QOaKEeePFcn19USO8Q" name="head2Head"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_y36nQOaKEeePFcn19USO8Q" name="PropertiesManager"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_4v3coOaLEeePFcn19USO8Q" name="GameType">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_6vubkOaLEeePFcn19USO8Q" name="plus"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_73WyAOaLEeePFcn19USO8Q" name="colors"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Qbeg4OaNEeePFcn19USO8Q" name="Factory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TSkCwOaNEeePFcn19USO8Q" name="ConsoleSwingFactory"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_jcLxsOaNEeePFcn19USO8Q" name="ConsoleSwing">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_l7pdwOaNEeePFcn19USO8Q" name="console"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mqZaIOaNEeePFcn19USO8Q" name="swing"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YhwdwOaIEeePFcn19USO8Q" name="View">
+    <packagedElement xmi:type="uml:Class" xmi:id="_fRaMoOaIEeePFcn19USO8Q" name="MyFrame">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kTTZMOaIEeePFcn19USO8Q" name="myMenu">
+        <type xmi:type="uml:Class" href="../SwingUML/SwingUML.uml#_oIDwAOCwEeeVRp3qO_9ugw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wWdzoOaJEeePFcn19USO8Q" name="ChoicePanel">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v_jysOaNEeePFcn19USO8Q" name="consoleSwing" visibility="private" type="_jcLxsOaNEeePFcn19USO8Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cIHgcOaIEeePFcn19USO8Q" name="Main"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_B1DxcOaKEeePFcn19USO8Q" name="MContainer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GiuacOaKEeePFcn19USO8Q" name="Console">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PyNW4OaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PyQaMOaMEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JheqkOaKEeePFcn19USO8Q" name="GameModePanel">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jRV7AOaKEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AmKqgOaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3NzXgOaMEeePFcn19USO8Q" name="DefensePanel"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BSyDcOaNEeePFcn19USO8Q" name="AttackPanel"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GmpJwOaNEeePFcn19USO8Q" name="Head2HeadPanel"/>
+  </packagedElement>
 </uml:Model>
