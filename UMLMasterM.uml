@@ -1,63 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tkqcYOZzEeeVkMJxGTFkWg" name="UMLMasterM">
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_tmEKkOZzEeeVkMJxGTFkWg" name="Interaction1">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_bDOxcOaHEeePFcn19USO8Q">
-      <body>&lt;p>The sequence diagram helps filling class diagram to find methods to implement.&lt;/p>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_tkqcYOZzEeeVkMJxGTFkWg" name="UMLMasterM">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_iBAI8OaUEeePFcn19USO8Q">
+      <body>&lt;p>&lt;strong>Name : AttackSystem Scenario&lt;/strong>&lt;/p>
+
+&lt;p>&lt;strong>Author : &lt;/strong>Boyman&lt;/p>
+
+&lt;p>&lt;strong>Last Revision&lt;/strong> : &lt;span style=&quot;color: rgb(0, 0, 205);&quot;>2017-12-21&lt;/span>&lt;/p>
+
+&lt;p>&lt;strong>Actors &lt;/strong>: Computer &amp;amp; user&lt;/p>
+
+&lt;p>&lt;strong>Uses &lt;/strong>:&lt;/p>
+
+&lt;p>&lt;strong>Extends &lt;/strong>:&lt;/p>
+
+&lt;p>&lt;strong>Pre-conditions&lt;/strong> :&lt;/p>
+
+&lt;p>&lt;strong>Basic course / Main Scenario&lt;/strong> :&lt;/p>
+
+&lt;p>&lt;strong>Other Scenarios&lt;/strong> :&lt;/p>
+
+&lt;p>&lt;strong>Post-conditions&lt;/strong> :&lt;/p>
+
+&lt;p>&lt;strong>Error-conditions&lt;/strong> :&lt;/p>
+
+&lt;p>&amp;nbsp;&lt;/p>
 </body>
     </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_FVBjIOaIEeePFcn19USO8Q" name="Interaction2">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_GzDAUOaIEeePFcn19USO8Q">
-      <body>&lt;p>The&amp;nbsp; &lt;strong>communication diagram &lt;/strong>helps representing the communication between entities in a pure human language&lt;/p>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_tmEKkOZzEeeVkMJxGTFkWg" name="Attack Mode">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_bDOxcOaHEeePFcn19USO8Q">
+        <body>&lt;p>The sequence diagram helps filling class diagram to find methods to implement.&lt;/p>
+
+&lt;p>One sequence diagram for 1 Use Case&lt;/p>
 </body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_S5qM0OaIEeePFcn19USO8Q" name="Controler"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_We_UwOaIEeePFcn19USO8Q" name="Model">
-    <packagedElement xmi:type="uml:Package" xmi:id="_PlZxUOaJEeePFcn19USO8Q" name="Observer">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_TyxJoOaJEeePFcn19USO8Q" name="Observer"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_Vkov4OaJEeePFcn19USO8Q" name="Observed"/>
+      </ownedComment>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sdGbwOaREeePFcn19USO8Q" name="" type="_JheqkOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xoEEwOaREeePFcn19USO8Q" name="" type="_TyxJoOaJEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_17qn8OaREeePFcn19USO8Q" name="" type="_B1DxcOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2xqb0OaREeePFcn19USO8Q" name="" type="_fRaMoOaIEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5kcFcOaREeePFcn19USO8Q" name="" type="_fYOXkOaOEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8y6zoOaREeePFcn19USO8Q" name="" type="_BSyDcOaNEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_sdF0sOaREeePFcn19USO8Q" name="" represents="_sdGbwOaREeePFcn19USO8Q" coveredBy="_HtoNsOaSEeePFcn19USO8Q _HtlKYOaSEeePFcn19USO8Q _RAUhEOaSEeePFcn19USO8Q _Hto0wOaSEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_xoC2oOaREeePFcn19USO8Q" name="" represents="_xoEEwOaREeePFcn19USO8Q" coveredBy="_RAVIIOaSEeePFcn19USO8Q _bjRicOaSEeePFcn19USO8Q _fCW4cOaSEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_17pZ0OaREeePFcn19USO8Q" name="" represents="_17qn8OaREeePFcn19USO8Q" coveredBy="_bjRiceaSEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_2xp0wOaREeePFcn19USO8Q" name="" represents="_2xqb0OaREeePFcn19USO8Q" coveredBy="_fCXfgOaSEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_5ka3UOaREeePFcn19USO8Q" name="" represents="_5kcFcOaREeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_8y5lgOaREeePFcn19USO8Q" name="" represents="_8y6zoOaREeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HtoNsOaSEeePFcn19USO8Q" name="ActionExecutionSpecification1Start" covered="_sdF0sOaREeePFcn19USO8Q" execution="_HtlKYOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RAUhEOaSEeePFcn19USO8Q" name="Message1SendEvent" covered="_sdF0sOaREeePFcn19USO8Q" message="_RATS8OaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Hto0wOaSEeePFcn19USO8Q" name="ActionExecutionSpecification1Finish" covered="_sdF0sOaREeePFcn19USO8Q" execution="_HtlKYOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RAVIIOaSEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_xoC2oOaREeePFcn19USO8Q" message="_RATS8OaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bjRicOaSEeePFcn19USO8Q" name="Message1SendEvent" covered="_xoC2oOaREeePFcn19USO8Q" message="_bjQUUOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bjRiceaSEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_17pZ0OaREeePFcn19USO8Q" message="_bjQUUOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fCW4cOaSEeePFcn19USO8Q" name="Message1SendEvent" covered="_xoC2oOaREeePFcn19USO8Q" message="_fCVqUOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fCXfgOaSEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_2xp0wOaREeePFcn19USO8Q" message="_fCVqUOaSEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_HtlKYOaSEeePFcn19USO8Q" name="ActionExecutionSpecification1" covered="_sdF0sOaREeePFcn19USO8Q" finish="_Hto0wOaSEeePFcn19USO8Q" start="_RAUhEOaSEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_RATS8OaSEeePFcn19USO8Q" name="game mode CallBack" messageSort="asynchCall" receiveEvent="_RAVIIOaSEeePFcn19USO8Q" sendEvent="_RAUhEOaSEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_bjQUUOaSEeePFcn19USO8Q" name="Notify container" messageSort="asynchCall" receiveEvent="_bjRiceaSEeePFcn19USO8Q" sendEvent="_bjRicOaSEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_fCVqUOaSEeePFcn19USO8Q" name="and main Frame" messageSort="asynchCall" receiveEvent="_fCXfgOaSEeePFcn19USO8Q" sendEvent="_fCW4cOaSEeePFcn19USO8Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QQI68OaKEeePFcn19USO8Q" name="Model"/>
-    <packagedElement xmi:type="uml:Enumeration" xmi:id="_YmW_AOaKEeePFcn19USO8Q" name="Mode">
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_bNgAYOaKEeePFcn19USO8Q" name="challenger"/>
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cusGUOaKEeePFcn19USO8Q" name="defense"/>
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eMN0QOaKEeePFcn19USO8Q" name="head2Head"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_FVBjIOaIEeePFcn19USO8Q" name="Guess Combination">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_GzDAUOaIEeePFcn19USO8Q">
+        <body>&lt;p>The&amp;nbsp; &lt;strong>communication diagram &lt;/strong>helps representing the communication between entities in a pure human language&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N1tGkOaPEeePFcn19USO8Q" name="" type="_fYOXkOaOEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O8iy0eaPEeePFcn19USO8Q" name="" type="_cIHgcOaIEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pa4UoeaPEeePFcn19USO8Q" name="" type="_B1DxcOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_P9Fp0OaPEeePFcn19USO8Q" name="" type="_GiuacOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RzVZwOaPEeePFcn19USO8Q" name="" type="_BSyDcOaNEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Sn64YOaPEeePFcn19USO8Q" name="" type="_GmpJwOaNEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tk9IYOaPEeePFcn19USO8Q" name="" type="_fRaMoOaIEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZYHZ0OaPEeePFcn19USO8Q" name="" type="_xYQOgOaOEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mxtRIOaPEeePFcn19USO8Q" name="" type="_JheqkOaKEeePFcn19USO8Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pa8woOaQEeePFcn19USO8Q" name="" type="_TSkCwOaNEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_N1r4cOaPEeePFcn19USO8Q" name="" represents="_N1tGkOaPEeePFcn19USO8Q" coveredBy="_-YPdkeaPEeePFcn19USO8Q _eHwjUOaQEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_P9FCwOaPEeePFcn19USO8Q" name="" represents="_P9Fp0OaPEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RzUysOaPEeePFcn19USO8Q" name="" represents="_RzVZwOaPEeePFcn19USO8Q" coveredBy="_qXKU4OaPEeePFcn19USO8Q _-YPdkOaPEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_Sn6RUOaPEeePFcn19USO8Q" name="" represents="_Sn64YOaPEeePFcn19USO8Q" coveredBy="_eHxKYOaQEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_ZYGLsOaPEeePFcn19USO8Q" name="" represents="_ZYHZ0OaPEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_mxsqEOaPEeePFcn19USO8Q" name="" represents="_mxtRIOaPEeePFcn19USO8Q" coveredBy="_qXJt0OaPEeePFcn19USO8Q"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_Pa7igOaQEeePFcn19USO8Q" name="" represents="_Pa8woOaQEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qXJt0OaPEeePFcn19USO8Q" name="Message1SendEvent" covered="_mxsqEOaPEeePFcn19USO8Q" message="_qW-usOaPEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qXKU4OaPEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_RzUysOaPEeePFcn19USO8Q" message="_qW-usOaPEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-YPdkOaPEeePFcn19USO8Q" name="Message1SendEvent" covered="_RzUysOaPEeePFcn19USO8Q" message="_-YNoYOaPEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-YPdkeaPEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_N1r4cOaPEeePFcn19USO8Q" message="_-YNoYOaPEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHwjUOaQEeePFcn19USO8Q" name="Message1SendEvent" covered="_N1r4cOaPEeePFcn19USO8Q" message="_eHvVMOaQEeePFcn19USO8Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHxKYOaQEeePFcn19USO8Q" name="Message1ReceiveEvent" covered="_Sn6RUOaPEeePFcn19USO8Q" message="_eHvVMOaQEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_qW-usOaPEeePFcn19USO8Q" name="1. Attack Mode" messageSort="asynchCall" receiveEvent="_qXKU4OaPEeePFcn19USO8Q" sendEvent="_qXJt0OaPEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_-YNoYOaPEeePFcn19USO8Q" name="1.1 Attack mode" messageSort="asynchCall" receiveEvent="_-YPdkeaPEeePFcn19USO8Q" sendEvent="_-YPdkOaPEeePFcn19USO8Q"/>
+      <message xmi:type="uml:Message" xmi:id="_eHvVMOaQEeePFcn19USO8Q" name="1.2 Launch head 2 head panel" messageSort="asynchCall" receiveEvent="_eHxKYOaQEeePFcn19USO8Q" sendEvent="_eHwjUOaQEeePFcn19USO8Q">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_q6IpoOaQEeePFcn19USO8Q">
+          <body>1.2 launch head 2 head panel</body>
+        </ownedComment>
+      </message>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_y36nQOaKEeePFcn19USO8Q" name="PropertiesManager"/>
-    <packagedElement xmi:type="uml:Enumeration" xmi:id="_4v3coOaLEeePFcn19USO8Q" name="GameType">
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_6vubkOaLEeePFcn19USO8Q" name="plus"/>
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_73WyAOaLEeePFcn19USO8Q" name="colors"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_S5qM0OaIEeePFcn19USO8Q" name="Controler">
+      <packagedElement xmi:type="uml:Package" xmi:id="_W6QFsOaOEeePFcn19USO8Q" name="Factory">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Y8UEEOaOEeePFcn19USO8Q" name="ControllerFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fYOXkOaOEeePFcn19USO8Q" name="Controller"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_Qbeg4OaNEeePFcn19USO8Q" name="Factory">
-      <packagedElement xmi:type="uml:Class" xmi:id="_TSkCwOaNEeePFcn19USO8Q" name="ConsoleSwingFactory"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_We_UwOaIEeePFcn19USO8Q" name="Model">
+      <packagedElement xmi:type="uml:Package" xmi:id="_PlZxUOaJEeePFcn19USO8Q" name="Observer">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_TyxJoOaJEeePFcn19USO8Q" name="Observer"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Vkov4OaJEeePFcn19USO8Q" name="Observed"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QQI68OaKEeePFcn19USO8Q" name="Model"/>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_YmW_AOaKEeePFcn19USO8Q" name="Mode">
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_bNgAYOaKEeePFcn19USO8Q" name="challenger"/>
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cusGUOaKEeePFcn19USO8Q" name="defense"/>
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eMN0QOaKEeePFcn19USO8Q" name="head2Head"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_y36nQOaKEeePFcn19USO8Q" name="PropertiesManager"/>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_4v3coOaLEeePFcn19USO8Q" name="GameType">
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_6vubkOaLEeePFcn19USO8Q" name="plus"/>
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_73WyAOaLEeePFcn19USO8Q" name="colors"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Qbeg4OaNEeePFcn19USO8Q" name="Factory">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TSkCwOaNEeePFcn19USO8Q" name="ConsoleSwingFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_jcLxsOaNEeePFcn19USO8Q" name="ConsoleSwing">
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_l7pdwOaNEeePFcn19USO8Q" name="console"/>
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mqZaIOaNEeePFcn19USO8Q" name="swing"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xYQOgOaOEeePFcn19USO8Q" name="Computer"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Enumeration" xmi:id="_jcLxsOaNEeePFcn19USO8Q" name="ConsoleSwing">
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_l7pdwOaNEeePFcn19USO8Q" name="console"/>
-      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mqZaIOaNEeePFcn19USO8Q" name="swing"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YhwdwOaIEeePFcn19USO8Q" name="View">
+      <packagedElement xmi:type="uml:Class" xmi:id="_fRaMoOaIEeePFcn19USO8Q" name="MyFrame">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kTTZMOaIEeePFcn19USO8Q" name="myMenu">
+          <type xmi:type="uml:Class" href="../SwingUML/SwingUML.uml#_oIDwAOCwEeeVRp3qO_9ugw"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wWdzoOaJEeePFcn19USO8Q" name="ChoicePanel">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_v_jysOaNEeePFcn19USO8Q" name="consoleSwing" visibility="private" type="_jcLxsOaNEeePFcn19USO8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cIHgcOaIEeePFcn19USO8Q" name="Main"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_B1DxcOaKEeePFcn19USO8Q" name="MContainer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GiuacOaKEeePFcn19USO8Q" name="Console">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PyNW4OaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PyQaMOaMEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JheqkOaKEeePFcn19USO8Q" name="GameModePanel">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jRV7AOaKEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_AmKqgOaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3NzXgOaMEeePFcn19USO8Q" name="DefensePanel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BSyDcOaNEeePFcn19USO8Q" name="AttackPanel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GmpJwOaNEeePFcn19USO8Q" name="Head2HeadPanel"/>
     </packagedElement>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_YhwdwOaIEeePFcn19USO8Q" name="View">
-    <packagedElement xmi:type="uml:Class" xmi:id="_fRaMoOaIEeePFcn19USO8Q" name="MyFrame">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_kTTZMOaIEeePFcn19USO8Q" name="myMenu">
-        <type xmi:type="uml:Class" href="../SwingUML/SwingUML.uml#_oIDwAOCwEeeVRp3qO_9ugw"/>
-      </ownedAttribute>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WwbCAOaTEeePFcn19USO8Q" name="AttackSystem">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ceA28OaTEeePFcn19USO8Q" name="RandomColors"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_g3yTkOaTEeePFcn19USO8Q" name="MakeCombination">
+        <include xmi:type="uml:Include" xmi:id="_BHq7cOaUEeePFcn19USO8Q" addition="_ceA28OaTEeePFcn19USO8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_mn6fIOaTEeePFcn19USO8Q" name="CompareCombination">
+        <include xmi:type="uml:Include" xmi:id="_CaspkOaUEeePFcn19USO8Q" addition="_g3yTkOaTEeePFcn19USO8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_pps1IOaTEeePFcn19USO8Q" name="ShowInterResult">
+        <include xmi:type="uml:Include" xmi:id="_EKOGcOaUEeePFcn19USO8Q" addition="_mn6fIOaTEeePFcn19USO8Q"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_wWdzoOaJEeePFcn19USO8Q" name="ChoicePanel">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_v_jysOaNEeePFcn19USO8Q" name="consoleSwing" visibility="private" type="_jcLxsOaNEeePFcn19USO8Q"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Z_g0MOaTEeePFcn19USO8Q" name="User"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bJ48oOaTEeePFcn19USO8Q" name="Computer"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_t0gosOaTEeePFcn19USO8Q" name="Choose Colors" memberEnd="_t00KsOaTEeePFcn19USO8Q _t00xwOaTEeePFcn19USO8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t0jE8OaTEeePFcn19USO8Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t0jE8eaTEeePFcn19USO8Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_t00KsOaTEeePFcn19USO8Q" name="randomcolors" type="_ceA28OaTEeePFcn19USO8Q" association="_t0gosOaTEeePFcn19USO8Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_t00xwOaTEeePFcn19USO8Q" name="computer" type="_bJ48oOaTEeePFcn19USO8Q" association="_t0gosOaTEeePFcn19USO8Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cIHgcOaIEeePFcn19USO8Q" name="Main"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_B1DxcOaKEeePFcn19USO8Q" name="MContainer"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_GiuacOaKEeePFcn19USO8Q" name="Console">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_PyNW4OaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_PyQaMOaMEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wJ-EMOaTEeePFcn19USO8Q" name="Compare with solution" memberEnd="_wJ-rQuaTEeePFcn19USO8Q _wJ-rQ-aTEeePFcn19USO8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wJ-rQOaTEeePFcn19USO8Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wJ-rQeaTEeePFcn19USO8Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wJ-rQuaTEeePFcn19USO8Q" name="comparecombination" type="_mn6fIOaTEeePFcn19USO8Q" association="_wJ-EMOaTEeePFcn19USO8Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wJ-rQ-aTEeePFcn19USO8Q" name="computer" type="_bJ48oOaTEeePFcn19USO8Q" association="_wJ-EMOaTEeePFcn19USO8Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_JheqkOaKEeePFcn19USO8Q" name="GameModePanel">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_jRV7AOaKEeePFcn19USO8Q" name="gameMode" visibility="private" type="_YmW_AOaKEeePFcn19USO8Q"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_AmKqgOaMEeePFcn19USO8Q" name="gameType" visibility="private" type="_4v3coOaLEeePFcn19USO8Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ySsEMOaTEeePFcn19USO8Q" name="Show intermediary result" memberEnd="_yStSUuaTEeePFcn19USO8Q _yStSU-aTEeePFcn19USO8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yStSUOaTEeePFcn19USO8Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yStSUeaTEeePFcn19USO8Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yStSUuaTEeePFcn19USO8Q" name="showinterresult" type="_pps1IOaTEeePFcn19USO8Q" association="_ySsEMOaTEeePFcn19USO8Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yStSU-aTEeePFcn19USO8Q" name="computer" type="_bJ48oOaTEeePFcn19USO8Q" association="_ySsEMOaTEeePFcn19USO8Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_3NzXgOaMEeePFcn19USO8Q" name="DefensePanel"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_BSyDcOaNEeePFcn19USO8Q" name="AttackPanel"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_GmpJwOaNEeePFcn19USO8Q" name="Head2HeadPanel"/>
-  </packagedElement>
-</uml:Model>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1aDdwOaTEeePFcn19USO8Q" name="Pick up some colors" memberEnd="_1aEr4OaTEeePFcn19USO8Q _1aEr4eaTEeePFcn19USO8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1aEE0OaTEeePFcn19USO8Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1aEE0eaTEeePFcn19USO8Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1aEr4OaTEeePFcn19USO8Q" name="makecombination" type="_g3yTkOaTEeePFcn19USO8Q" association="_1aDdwOaTEeePFcn19USO8Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1aEr4eaTEeePFcn19USO8Q" name="user" type="_Z_g0MOaTEeePFcn19USO8Q" association="_1aDdwOaTEeePFcn19USO8Q"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sN1ioOaPEeePFcn19USO8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sN2wwOaPEeePFcn19USO8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_q6JQsOaQEeePFcn19USO8Q" base_Comment="_q6IpoOaQEeePFcn19USO8Q" language="org.eclipse.papyrus.uml.textedit.message.xtext.UmlMessage"/>
+</xmi:XMI>
