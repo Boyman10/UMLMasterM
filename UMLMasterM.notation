@@ -923,7 +923,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_iBB-I-aUEeePFcn19USO8Q" type="Comment_BodyLabel"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iBB-IeaUEeePFcn19USO8Q"/>
       <element xmi:type="uml:Comment" href="UMLMasterM.uml#_iBAI8OaUEeePFcn19USO8Q"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iBB-IuaUEeePFcn19USO8Q" x="106" y="311"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iBB-IuaUEeePFcn19USO8Q" x="20" y="280" width="241" height="261"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_ISSkgeaTEeePFcn19USO8Q" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_ISSkguaTEeePFcn19USO8Q"/>
