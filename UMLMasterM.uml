@@ -2,46 +2,46 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
   <uml:Model xmi:id="_tkqcYOZzEeeVkMJxGTFkWg" name="UMLMasterM">
     <ownedComment xmi:type="uml:Comment" xmi:id="_iBAI8OaUEeePFcn19USO8Q" annotatedElement="_ceA28OaTEeePFcn19USO8Q">
-      <body>&lt;p>&lt;strong>Name : Random colors&lt;/strong>&lt;/p>
-
-&lt;p>&lt;strong>Author : &lt;/strong>Boyman&lt;/p>
-
-&lt;p>&lt;strong>Last Revision&lt;/strong> : &lt;span style=&quot;color: rgb(0, 0, 205);&quot;>2017-12-21&lt;/span>&lt;/p>
-
-&lt;p>&lt;strong>Actors &lt;/strong>: Computer&lt;/p>
-
-&lt;p>&lt;strong>Uses (includes)&lt;/strong>: Nil&lt;/p>
-
-&lt;p>&lt;strong>Extends &lt;/strong>: Nil&lt;/p>
-
-&lt;p>&lt;strong>Pre-conditions&lt;/strong> : The mode of the game has been selected - we are in the Attack System Game Mode. And the type of game is the Colors one.&lt;/p>
-
-&lt;p>&lt;strong>Basic course / Main Scenario&lt;/strong> : 
-1. The system uses random functions to pick up 4 or more colors to be used as a combination
-2. The system stores the combination in an object field (Combination class...)
-3. The system displays an empty array of colors on the frame
-4. The system displays the panel where the user can drag drop colors on the fields
-5. The system is waiting for user's interaction
-&lt;/p>
-
-&lt;p>&lt;strong>Developer Scenario&lt;/strong> :  Developer mode
-3. The system displays the solution on the screen.
-&lt;/p>
-
-&lt;p>&lt;strong>Console scenario&lt;/strong> : 
-3. The system displays stars * on the screen and waits for user input
-&lt;/p>
-
-&lt;p>&lt;strong>Numbers scenario&lt;/strong> :
-3. the system displays empty TextField on the frame
-4. the system is waiting for user input and validation
-&lt;/p>
-
-&lt;p>&lt;strong>Post-conditions&lt;/strong> :&lt;/p>
-
-&lt;p>&lt;strong>Error-conditions&lt;/strong> :&lt;/p>
-
-&lt;p>&amp;nbsp;&lt;/p>
+      <body>&lt;p>&lt;strong>Name : Random colors&lt;/strong>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Author : &lt;/strong>Boyman&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Last Revision&lt;/strong> : &lt;span style=&quot;color: rgb(0, 0, 205);&quot;>2017-12-21&lt;/span>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Actors &lt;/strong>: Computer&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Uses (includes)&lt;/strong>: Nil&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Extends &lt;/strong>: Nil&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Pre-conditions&lt;/strong> : The mode of the game has been selected - we are in the Attack System Game Mode. And the type of game is the Colors one.&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Basic course / Main Scenario&lt;/strong> : &lt;br/>&#xD;
+1. The system uses random functions to pick up 4 or more colors to be used as a combination&lt;br/>&#xD;
+2. The system stores the combination in an object field (Combination class...)&lt;br/>&#xD;
+3. The system displays an empty array of colors on the frame&lt;br/>&#xD;
+4. The system displays the panel where the user can drag drop colors on the fields&lt;br/>&#xD;
+5. The system is waiting for user's interaction&lt;br/>&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Developer Scenario&lt;/strong> :  Developer mode&#xD;
+3. The system displays the solution on the screen.&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Console scenario&lt;/strong> : &#xD;
+3. The system displays stars * on the screen and waits for user input&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Numbers scenario&lt;/strong> :&#xD;
+3. the system displays empty TextField on the frame&#xD;
+4. the system is waiting for user input and validation&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Post-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Error-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&amp;nbsp;&lt;/p>&#xD;
 </body>
     </ownedComment>
     <ownedComment xmi:type="uml:Comment" xmi:id="_ojFlIOfBEeerRPSR7fjhSw" annotatedElement="_cIHgcOaIEeePFcn19USO8Q">
@@ -84,6 +84,80 @@ the right Panel using the SwingControler.</body>
 from the Main class depending on parameters
 in the config file or a choice from a window.
 The game will happen rightj into the console</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_wUPI8OlQEeePXqQTaxb20w" annotatedElement="_g3yTkOaTEeePFcn19USO8Q">
+      <body>&lt;p>&lt;strong>Name : Make Combo&lt;/strong>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Author : &lt;/strong>Boyman&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Last Revision&lt;/strong> : &lt;span style=&quot;color: rgb(0, 0, 205);&quot;>2017-12-25&lt;/span>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Actors &lt;/strong>: User&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Uses (includes)&lt;/strong>: random Colors&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Extends &lt;/strong>: Nil&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Pre-conditions&lt;/strong> : The mode of the game has been selected - we are in the Attack System Game Mode. And the type of game is the Colors one - the computer has choosen its combo&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Basic course / Main Scenario&lt;/strong> : &lt;br/>&#xD;
+1. The user drags/drop colors&lt;br/>&#xD;
+2. The user click the validation button&lt;br/>&#xD;
+3. The system stores the information in the user combo object&lt;br/>&#xD;
+4. The user is waiting for the result&lt;br/>&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Developer Scenario&lt;/strong> :  Developer mode&#xD;
+1. The system displays the solution on the screen.&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Console scenario&lt;/strong> : &#xD;
+1. The user is using the first letter of the color with space between to choose his colors&#xD;
+2. The user type the enter key&#xD;
+3.The system stores the information in the user combo object&#xD;
+4. the user is waiting for the result&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Numbers scenario&lt;/strong> :&#xD;
+3. the system displays empty TextField on the frame&#xD;
+4. the system is waiting for user input and validation&#xD;
+&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Post-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Error-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&amp;nbsp;&lt;/p>&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_YzWxMOlTEeePXqQTaxb20w" annotatedElement="_mn6fIOaTEeePFcn19USO8Q">
+      <body>&lt;p>&lt;strong>Name : Compare Combo&lt;/strong>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Author : &lt;/strong>Boyman&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Last Revision&lt;/strong> : &lt;span style=&quot;color: rgb(0, 0, 205);&quot;>2017-12-25&lt;/span>&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Actors &lt;/strong>: Computer&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Uses (includes)&lt;/strong>: make combination&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Extends &lt;/strong>: Nil&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Pre-conditions&lt;/strong> : the computer has a combo and the user made a try&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Basic course / Main Scenario&lt;/strong> : &lt;br/>&#xD;
+1. The computer compares each color with the combo&lt;br/>&#xD;
+2. The computer is using array list to proceed&lt;br/>&#xD;
+3. The computer is preparing the result of the computation&lt;br/>&#xD;
+&lt;/p>&#xD;
+&#xD;
+&#xD;
+&lt;p>&lt;strong>Post-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&lt;strong>Error-conditions&lt;/strong> :&lt;/p>&#xD;
+&#xD;
+&lt;p>&amp;nbsp;&lt;/p>&#xD;
+</body>
     </ownedComment>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_tmEKkOZzEeeVkMJxGTFkWg" name="Attack Mode">
       <ownedComment xmi:type="uml:Comment" xmi:id="_bDOxcOaHEeePFcn19USO8Q">
@@ -277,6 +351,12 @@ The game will happen rightj into the console</body>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_pps1IOaTEeePFcn19USO8Q" name="ShowInterResult">
         <include xmi:type="uml:Include" xmi:id="_EKOGcOaUEeePFcn19USO8Q" addition="_mn6fIOaTEeePFcn19USO8Q"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_yMXIMOlQEeePXqQTaxb20w" name="SeeHistoric">
+        <include xmi:type="uml:Include" xmi:id="_DZHSoOlSEeePXqQTaxb20w" addition="_74nVoOlREeePXqQTaxb20w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_74nVoOlREeePXqQTaxb20w" name="display Historic">
+        <include xmi:type="uml:Include" xmi:id="__v37EOlREeePXqQTaxb20w" addition="_pps1IOaTEeePFcn19USO8Q"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_Z_g0MOaTEeePFcn19USO8Q" name="User"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_bJ48oOaTEeePFcn19USO8Q" name="Computer"/>
@@ -373,6 +453,13 @@ The game will happen rightj into the console</body>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_loCPoefJEeerRPSR7fjhSw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_loC2sefJEeerRPSR7fjhSw" name="gamemodepanel" type="_JheqkOaKEeePFcn19USO8Q" association="_loBokOfJEeerRPSR7fjhSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4b2wUOlQEeePXqQTaxb20w" name="access historic of game" memberEnd="_4cAhUOlQEeePXqQTaxb20w _4cAhUelQEeePXqQTaxb20w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4b2wUelQEeePXqQTaxb20w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4b2wUulQEeePXqQTaxb20w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_4cAhUOlQEeePXqQTaxb20w" name="seehistoric" type="_yMXIMOlQEeePXqQTaxb20w" association="_4b2wUOlQEeePXqQTaxb20w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_4cAhUelQEeePXqQTaxb20w" name="user" type="_Z_g0MOaTEeePFcn19USO8Q" association="_4b2wUOlQEeePXqQTaxb20w"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sN1ioOaPEeePFcn19USO8Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sN2wwOaPEeePFcn19USO8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
